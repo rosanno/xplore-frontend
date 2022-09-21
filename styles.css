@@ -153,11 +153,19 @@ p.fw-semibold {
   bottom: -14px;
 }
 
-.images-container img,
-.slider-container img {
+.images-container img {
   width: 350px;
   height: 490px;
   /* padding: 0.8rem 1rem; */
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+
+.slider-container img {
+  width: 380px;
+  height: 500px;
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
