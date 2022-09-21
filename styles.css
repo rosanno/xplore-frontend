@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
 .navbar {
   padding: 0;
 }
@@ -43,6 +45,14 @@
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.home__heading,
+.destination__heading,
+.special-heading,
+.blog-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 .vertical-text {
@@ -172,7 +182,8 @@ p.fw-semibold {
   overflow: hidden;
 }
 
-.special-offers {
+.special-offers,
+.blog-section {
   margin-top: 10rem;
 }
 
@@ -195,4 +206,15 @@ p.fw-semibold {
   background-color: #20313b;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+.video-container video {
+  width: 700px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.video-container {
+  margin-left: 100px;
 }
