@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Xplore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand d-flex">
+        <div class="menu-alt-icon">
+          <img src="./images/menu-alt-icon.svg" alt="" />
+        </div>
+        <div
+          class="d-flex align-items-center w-100 justify-content-between nav-wrap"
+        >
+          <a href="" class="navbar-brand"
+            >XPLORE<i class="fa-solid fa-square-list"></i
+          ></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Package</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="section__container d-flex">
+        <div class="home__left">
+          <p class="vertical-text">hiadmin@moloku.com</p>
+          <p class="vertical-text">(+62) 812 3458 7890</p>
+          <div class="home__socials">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div
+          class="home__section d-flex align-items-center justify-content-center flex-grow-1 gap-5"
+        >
+          <div class="text-white">
+            <p class="fst-italic">All year long travel</p>
+            <h1 class="home__heading">Let's explore all</h1>
+            <h1 class="home__heading">Wondeful Indonesia</h1>
+            <h1 class="home__heading">Destination</h1>
+            <p class="home__subheading">
+              Hi! would you explore nature paradise in the world<br />
+              let's find the best destination in Indonesia with us.
+            </p>
+          </div>
+
+          <div class="d-flex flex-column home__forms rounded-4">
+            <p class="text-center fw-bold">Reservation</p>
+            <div class="d-flex gap-4">
+              <div class="d-flex flex-column">
+                <p class="mb-1 fw-semibold">Guest</p>
+                <input
+                  class="home__input border-0 rounded-2"
+                  type="text"
+                  name=""
+                  id=""
+                />
+                <input
+                  class="home__input mt-2 border-0 rounded-2"
+                  type="text"
+                  name=""
+                  id=""
+                />
+              </div>
+              <div>
+                <div class="d-flex flex-column">
+                  <p class="mb-1 fw-semibold">Dates</p>
+                  <input
+                    class="home__input border-0 rounded-2"
+                    type="text"
+                    name=""
+                    id=""
+                  />
+                  <input
+                    class="home__input mt-2 border-0 rounded-2"
+                    type="text"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="d-flex gap-4 mt-3">
+                <div>
+                  <p class="mb-1 fw-semibold">Destination</p>
+                  <input
+                    class="home__input border-0 rounded-2"
+                    type="text"
+                    name=""
+                    id=""
+                  />
+                </div>
+                <div>
+                  <p class="mb-1 fw-semibold">Room</p>
+                  <input
+                    class="home__input border-0 rounded-2"
+                    type="text"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+              <button class="btn">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section destination" id="destination">
+      <h1 class="destination__heading fw-bold">Recommended Destination</h1>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex gap-5 py-1 mb-4 mt-4 destination__section__tab">
+          <div class="tab-active">
+            <h6 class="fw-semibold">Popular</h6>
+          </div>
+          <div>
+            <h6 class="fw-semibold">Adventure</h6>
+          </div>
+          <div>
+            <h6 class="fw-semibold">Beach</h6>
+          </div>
+        </div>
+
+        <div class="d-flex gap-3 align-items-center">
+          <div class="arrow-left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div class="arrow-right active">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="images-scroll">
+        <div class="images-container position-relative">
+          <img src="./images/nusa-peneda.jpg" alt="" />
+          <div class="position-absolute bottom-0 w-100 px-4 py-4 img-title">
+            <div class="d-flex text-white justify-content-between">
+              <h5>Nusa Penida</h5>
+              <span><i class="fa-solid fa-star me-2"></i>4.7</span>
+            </div>
+            <div class="text-white">
+              <span>
+                <i class="fa-solid fa-location-dot me-2"></i>Bali
+                Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="images-container position-relative ms-4">
+          <img src="./images/labuan-bajo.jpg" alt="" />
+          <div class="position-absolute bottom-0 w-100 px-4 py-4 img-title">
+            <div class="d-flex text-white justify-content-between">
+              <h5>Labuan Bajo</h5>
+              <span><i class="fa-solid fa-star me-2"></i>4.8</span>
+            </div>
+            <div class="text-white">
+              <span>
+                <i class="fa-solid fa-location-dot me-2"></i>NTT,
+                Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="images-container position-relative ms-4">
+          <img src="./images/mount-bromo.jpg" alt="" />
+          <div class="position-absolute bottom-0 w-100 px-4 py-4 img-title">
+            <div class="d-flex text-white justify-content-between">
+              <h5>Mount Bromo</h5>
+              <span><i class="fa-solid fa-star me-2"></i>4.5</span>
+            </div>
+            <div class="text-white">
+              <span>
+                <i class="fa-solid fa-location-dot me-2"></i>Malang,
+                Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="images-container position-relative ms-4">
+          <img src="./images/gili-island.jpg" alt="" />
+          <div class="position-absolute bottom-0 w-100 px-4 py-4 img-title">
+            <div class="d-flex text-white justify-content-between">
+              <h5>Gili Island</h5>
+              <span><i class="fa-solid fa-star me-2"></i>4.8</span>
+            </div>
+            <div class="text-white">
+              <span>
+                <i class="fa-solid fa-location-dot me-2"></i>Lombok,
+                Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
