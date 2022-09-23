@@ -18,3 +18,17 @@ const updateToggleButton = () => {
 playBtn.addEventListener("click", togglePlay);
 video.addEventListener("play", updateToggleButton);
 video.addEventListener("pause", updateToggleButton);
+
+const btnLeft = document.querySelector(".arrow-left");
+const btnRight = document.querySelector(".arrow-right");
+
+const scrollLeft = () => {
+  document.querySelector(".images-scroll").scrollBy(350, 0);
+};
+
+const scrollRight = () => {
+  document.querySelector(".images-scroll").scrollBy(-350, 0);
+};
+
+btnLeft.addEventListener("click", scrollLeft);
+btnRight.addEventListener("click", scrollRight);
