@@ -29,6 +29,16 @@
   color: #1d2e39;
 }
 
+.heading {
+  color: #20313b;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+}
+
 /******************************* Home section *******************************/
 .section__container {
   width: 100%;
@@ -52,7 +62,7 @@
 .special-heading,
 .blog-heading {
   font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .vertical-text {
@@ -188,7 +198,7 @@ p.fw-semibold {
 
 .special-offers,
 .blog-section,
-.testimonial__section {
+.section__testimonial {
   margin-top: 10rem;
 }
 
@@ -214,7 +224,8 @@ p.fw-semibold {
 }
 
 .video-container video {
-  width: 720px;
+  width: 100%;
+  height: 100%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -257,3 +268,126 @@ p.fw-semibold {
 }
 
 /******************************* Testimonial section *******************************/
+.section__testimonial {
+  padding: 0 7.7rem;
+}
+
+.testimonial-img-1 {
+  height: 100%;
+}
+
+.testimonial-img-1,
+.testimonial-img-2 {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.blog__card {
+  width: 255px;
+}
+
+.blog__card-two {
+  width: 230px;
+}
+
+.blog__card,
+.blog__card-two {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.testimonial {
+  text-align: center;
+  padding: 0.2rem 3rem;
+}
+
+.testimonial p {
+  font-size: 0.9rem;
+}
+
+.quotation-mark {
+  background-color: white;
+  padding: 0rem 1.7rem;
+  border-radius: 100px;
+  width: 40px;
+  line-height: 1;
+  font-size: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+}
+
+/******************************* Footer section *******************************/
+.footer-section {
+  margin: 20rem 3.5rem 2rem 3.5rem;
+  padding-bottom: 4rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #20313b;
+}
+
+.footer__subscribe {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem 0;
+}
+
+.subscribe__input input {
+  border: 0;
+  outline: none;
+  background-color: #dee0e2;
+}
+
+.subscribe__input {
+  background-color: #dee0e2;
+  padding: 0.4rem 2.6rem 0.4rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+button[type="submit"] {
+  border: none;
+  background-color: #20313b;
+  color: white;
+  font-weight: bold;
+  padding: 0.3rem 2.5rem;
+  border-radius: 10px;
+}
+
+.subfooter {
+  padding-top: 13rem;
+}
+
+.footer__heading {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.contact,
+.email {
+  font-size: 0.88rem;
+  color: #ccc;
+}
+
+.list-item {
+  font-size: 1.15rem;
+}
